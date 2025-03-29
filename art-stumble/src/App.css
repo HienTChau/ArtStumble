@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* General container for the art display */
+.art-display-container {
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Left section: Random Art */
+.art-section {
+  flex: 3;
+  background-color: #f9f9f9;
+  align-items: flex-start;
+
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Right section: Banned Topics */
+.banned-topics-section {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banned-topics-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.banned-topic-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.banned-topic-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.banned-topic-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Styling for the Random Art section */
+.art-display {
+  text-align: left;
+}
+
+.art-display h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.art-display p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.ban-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.ban-button:hover {
+  background-color: #0056b3;
+}
+
+.art-display img {
+  max-width: 100%;
+  height: 400px;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button{
+  margin: 15px;
+}
